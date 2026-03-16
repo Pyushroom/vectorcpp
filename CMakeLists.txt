@@ -15,7 +15,7 @@ option(ENABLE_WARNINGS "Enable extra compiler warnings" ON)
 option(ENABLE_SANITIZERS "Enable sanitizers in Debug builds" OFF)
 
 set(SOURCES
-    src/main.cpp,
+    src/main.cpp
     src/MyVector.cpp
 )
 

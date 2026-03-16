@@ -19,7 +19,7 @@ void MyVector::push_back(int value) {
 }
 
 void MyVector::resize() {
-    capacity *2;
+    capacity *=2;
     int* newData = new int[capacity];
     for(int i = 0; i < size; i++){
         newData[i] = data[i];
@@ -30,9 +30,9 @@ void MyVector::resize() {
 }
 
 int MyVector::operator[](int index) {
-    return 0;
+    return data[index];
 }
 
 int MyVector::getSize() {
-    return 0;
+    return size;
 }
